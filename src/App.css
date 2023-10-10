@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+#drum-machine {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.drum-pad {
+  background-color: rgb(0, 128, 0);
+  margin: 4px;
+  width: 100%;
+  color: white;
+  font-size: 2em;
+}
